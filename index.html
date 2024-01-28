@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Kommunicate PlayGorund</title>
+
+</head>
+<body>
+    <h2 class="headings">Select Excel File to train your bot:</h2>
+    <form id="fileForm">
+        <label for="fileSelect">Choose an Excel file:</label>
+        <select id="fileSelect" name="fileSelect">
+            <option value="ACScrewchiller_20thDec23.xlsx">ACScrewchiller</option>
+            <option value="WCCentrifugalchiller_20thDec23.xlsx">WCCentrifugalchiller</option>
+            <option value="WCScrewchiller_20thDec23.xlsx">WCScrewchiller</option>
+        </select>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <script src="./script.js"></script>
+</body>
+</html>
