@@ -1,4 +1,4 @@
-const BASE_URL = "https://kommunicate-excel-scanner.vercel.app/"; 
+const BASE_URL = "https://kommunicate-excel-scanner.vercel.app"; 
 
 document.addEventListener('DOMContentLoaded', function() {
     var fileForm = document.getElementById('fileForm');
